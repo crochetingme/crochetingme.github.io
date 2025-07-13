@@ -11570,3 +11570,25 @@ ul.notes li div {
   -webkit-transition: -webkit-transform 0.15s linear;
 }
 
+
+.image-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.float-image {
+  max-width: 400px;
+  height: auto;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+}
+
+.small-icon {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 30px;
+  height: auto;
+  z-index: 10;
+}
+
